@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Mo-Sys Thumbnail</title>
+ 	<link rel="stylesheet" href="CSS.css">
+    <script src="JsBarcode.all.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="mainBox">
+        <header>
+            <div id="corner"><img src="Images/BBC.png"></div><br>
+            <strong>Product:</strong> L40<br>
+            <strong>Manufactruer:</strong> <img src="Images/mo-sys.png"><br>
+            <strong>Owner:</strong> <img src="Images/BBC.png"><br>
+            <strong>xxxxxxx:</strong> xxxxx
+        </header>
+
+        <main>
+            <div id="main">
+                <button id="ownerC" onclick="change_ownerC()">Contact Owner</button>
+                <button id="mosysC" onclick="change_mosysC()">Contact Mo-Sys</button>
+                <button id="tutorial" onclick="change_tutorial()">Tutorials</button>
+                <button id="support" onclick="change_support()">Support</button>
+                <button id="settings" onclick="change_settings()">Settings</button>
+                <button id="bc" onclick="change_barcode()">Show Barcode</button>
+                <!--<svg id="barcode"></svg>-->
+            </div>
+        </main>
+
+        <footer>
+            <img src="Images/footer.png"><br>
+        </footer>
+    </div>
+    
+</body>

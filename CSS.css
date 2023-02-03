@@ -1,0 +1,58 @@
+body{
+    background-color: indianred;
+}
+#mainBox {
+    margin: 2% 10%;
+    padding: 3%;
+    background-color: cornsilk;
+}
+header img {
+    height: 1em;
+}
+#corner {
+    text-align: right;
+}
+main {
+    text-align: center;
+}
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    margin: 8%;
+}
+
+button {
+    background-color: aliceblue;
+    font-size: larger;
+    margin: 2%;
+    padding: 2%;
+}
+button:hover {
+    background-color: cornflowerblue;
+}
+
+#barcode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5%;
+}
+
+/*CSS for phone screen*/
+@media (max-width: 1000px) 
+{
+    #main {
+        grid-template-columns: 1fr;
+    }
+    #barcode {
+        width: 70%;
+    }
+}
