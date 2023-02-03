@@ -1,0 +1,17 @@
+[
+     {
+      "Order Type": "SO",
+      "Order Nbr.": "SO006538",
+      "Status": "Completed",
+      "Date": "03\/10\/2021",
+      "Sched. Shipment": "03\/10\/2021",
+      "Customer": "APOSTELSCH",
+      "Customer Name": "Church of The Apostles",
+      "Ordered Qty.": 70,
+      "Order Total": 35000,
+      "Currency": "USD",
+      "Created On": "03\/10\/2021",
+      "InventoryID": "AACOMPUT01",
+      "id": "123456789"
+     }
+]

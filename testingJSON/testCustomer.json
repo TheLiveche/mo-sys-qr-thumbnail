@@ -1,0 +1,15 @@
+[
+    {
+        "CustomerID": "APOSTELSCH",
+        "Customer Name": "Church of The Apostles",
+        "Customer Class": "LOCAL",
+        "Country": "US",
+        "City": "Coppell",
+        "Currency ID": "USD",
+        "Terms": "30D",
+        "Customer Status": "Active",
+        "State": "TX",
+        "Email": "fakeemail@gmail.com",
+        "Phone": "(123) 555-2232"
+    }
+]

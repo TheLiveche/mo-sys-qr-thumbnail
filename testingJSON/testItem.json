@@ -1,0 +1,15 @@
+[
+        {
+         "InventoryID": "AACOMPUT01",
+         "Description": "Acer Laptop Computer",
+         "Type": "Finished Good",
+         "Item Class": "ELECCOMP  -400-COMPUTERS",
+         "Posting Class": "ELE",
+         "Tax Category": "EXEMPT",
+         "Default Warehouse": "WHOLESALE",
+         "Base Unit": "EA",
+         "Default Price": 500,
+         "Item Status": "Active",
+         "Tutorial": "Images/tutorial.png"
+        }
+]
